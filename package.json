@@ -1,0 +1,20 @@
+{
+  "name": "mha-branded-app",
+  "version": "1.0.0",
+  "description": "Node.js backend scaffold for MHA Branded App (spam blocker & notifications).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
